@@ -1,103 +1,13 @@
 <!DOCTYPE html>
 <html lang="US-en">
+	<% include partials/head %>
 
-<head>
-	<title><%= title %></title>
-	<!-- Meta tag Keywords -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8" />
-	<meta name="author" content="Favour Duruji-Moses" />
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- //Meta tag Keywords -->
-
-	<!-- Custom-Files -->
-	<link rel="stylesheet" href="/stylesheets/bootstrap.css">
-	<!-- Bootstrap-Core-CSS -->
-	<link rel="stylesheet" href="/stylesheets/animation-aos.css">
-	<link href='/stylesheets/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
-	<!-- animation css -->
-	<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
-	<!-- Style-CSS -->
-	<link rel="stylesheet" href="/stylesheets/all.min.css">
-
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Font-Awesome-Icons-CSS -->
-	<!-- //Custom-Files -->
-
-	<!-- Web-Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
-	    rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
-	    rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
-	<!-- //Web-Fonts -->
-
-</head>
 
 <body>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 
-<meta name="robots" content="noindex">
-<body><link rel="stylesheet" href="/images/demobar_w3_4thDec2019.css">
 
 	<div class="mian-content">
-		<!-- header -->
-		<header data-aos="fade-down">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="logo text-left">
-					<h1>
-						<a class="navbar-brand" href="index.html"><i class="fa fa-copy"></i> Favour Urenma DM</a>
-					</h1>
-				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon">
-
-					</span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-lg-auto text-lg-right text-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link scroll" href="#about">About Me</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-							    aria-haspopup="true" aria-expanded="false">
-								Dropdown
-							</a>
-							<div class="dropdown-menu text-lg-left text-center" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item scroll" href="#services">Services</a>
-								<a class="dropdown-item scroll" href="#skills" title="">Skills</a>
-								<a class="dropdown-item scroll" href="#education" title="">My Education</a>
-								<a class="dropdown-item scroll" href="#education" title="">My Experience</a>
-								<a class="dropdown-item scroll" href="#clients" title="">Clients</a>
-								<a class="dropdown-item scroll" href="#awards" title="">Awards</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link scroll" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact Me</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<!-- //header -->
+		<% include partials/header %>
 
 		<!--  particles  -->
 		<div id="particles-js"></div>
@@ -400,20 +310,20 @@
 				<section>
 					<ul id="da-thumbs" class="da-thumbs">
 						<li data-aos="zoom-in">
-							<a href="/images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
-								<img src="/images/g1.jpg" alt="" class="img-fluid" />
+							<a href="/images/beyond-the-hurt.png" class="b-link-stripe b-animate-go  thickbox">
+								<img src="/images/beyond-the-hurt.png" alt="" class="img-fluid" />
 								<div>
-									<h5>Beyond the Hurt</h5>
-									<p>Buy Now</p>
+									<h5 class="card-header">Beyond the Hurt</h5>
+									<p class="btn btn-dark">Buy Now</p>
 								</div>
 							</a>
 						</li>
 						<li data-aos="zoom-in">
-							<a href="/images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
-								<img src="/images/g2.jpg" alt="" class="img-fluid" />
+							<a href="/images/chip-img-2.jpg" class="b-link-stripe b-animate-go  thickbox">
+								<img src="/images/chip-img-2.jpg" alt="" class="img-fluid chip-custom-img-size" />
 								<div>
-									<h5>Desteward Chips</h5>
-									<p>Order for it!</p>
+									<h5 class="card-header">Desteward Chips</h5>
+									<p class="btn btn-dark">Order for it!</p>
 								</div>
 							</a>
 						</li>
@@ -421,7 +331,7 @@
 							<a href="/images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
 								<img src="/images/g3.jpg" alt="" class="img-fluid" />
 								<div>
-									<h5>Bed-Spread (Interior Deco)</h5>
+									<h5>Bed-Spread (Interior Decor)</h5>
 									<p>Order now</p>
 								</div>
 							</a>
@@ -440,7 +350,7 @@
 			<div class="mb-lg-5 mb-4 text-center">
 				<h3 class="title-wthree text-white mb-2">
 					<span class="text-white mb-2"></span>My Favorite Quote</h3>
-				<p class="sub-tittle">Interesting and encouraging watch-word/</p>
+				<p class="sub-tittle">Interesting and encouraging watch-word.</p>
 			</div>
 			<!-- //heading title -->
 			<div class="row pt-sm-5">
@@ -465,77 +375,7 @@
 	</div>
 	<!-- //awards -->
 
-	<!-- footer -->
-	<footer>
-		<div class="w3ls-footer-grids py-4">
-			<div class="container py-xl-5 py-lg-3">
-				<div class="row">
-					<div class="col-lg-5 w3l-footer-logo">
-						<!-- footer logo -->
-						<a class="navbar-brand" href="index.html"><i class="fas fa-copy"></i> Favour Urenma DM</a>
-						<!-- //footer logo -->
-					</div>
-					<!-- button -->
-					<div class="col-lg-5 w3l-footer text-lg-right text-center mt-3">
-						<ul class="list-unstyled footer-nav-wthree">
-							<li class="mr-4">
-								<a href="index.html" class="active">Home</a>
-							</li>
-							<li class="mr-4">
-								<a class="scroll" href="#about">About Me</a>
-							</li>
-							<li class="mr-4">
-								<a class="scroll" href="#services">My Services</a>
-							</li>
-							<li>
-								<a class=" scroll" href="#projects">Projects</a>
-							</li>
-						</ul>
-					</div>
-					<!-- //button -->
-					<div class="col-lg-2 mt-lg-0 mt-3">
-						<div class="button-w3ls mt-0 text-lg-right text-center">
-							<a href="/contact" class="btn btn-sm animated-button thar-four">Contact Me</a>
-						</div>
-					</div>
-				</div>
-				<div class="row border-top mt-4 pt-lg-4 pt-3 text-lg-left text-center">
-					<!-- copyright -->
-					<p class="col-lg-8 copy-right-grids mt-lg-1">© 2020 Favour Urenma DM. All Rights Reserved | Design by
-						<a href="https://facebook.com/AnonWhizkevina/" target="_blank">Whizkevina</a>
-					</p>
-					<!-- //copyright -->
-					<!-- social icons -->
-					<div class="col-lg-4 w3social-icons text-lg-right text-center mt-lg-0 mt-3">
-						<ul>
-							<li>
-								<a href="#" class="rounded-circle">
-									<i class="fa fa-facebook-f"></i>
-								</a>
-							</li>
-							<li class="px-2">
-								<a href="#" class="rounded-circle">
-									<i class="fa fa-google-plus-g"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="rounded-circle">
-									<i class="fa fa-twitter"></i>
-								</a>
-							</li>
-							<li class="pl-2">
-								<a href="#" class="rounded-circle">
-									<i class="fa fa-dribbble"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<!-- //social icons -->
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- //footer -->
+	<% include partials/footer %>
 
 
 	<!-- Js files -->

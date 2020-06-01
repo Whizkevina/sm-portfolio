@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Favour Duruji-Moses' });
 });
 
+
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Favour Duruji-Moses - Contact' });
+});
+
 module.exports = router;
