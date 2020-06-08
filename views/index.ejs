@@ -61,7 +61,7 @@
 						<h3 class="title-wthree text-dark mb-2">
 							<span class="mb-2"></span>My Family </h3>
 					</div>
-	<div class="container">
+	<div class="container mb-3">
 	
 <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -70,40 +70,36 @@
         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-2" data-slide-to="1"></li>
         <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        <li data-target="#carousel-example-2" data-slide-to="3"></li>
     </ol>
     <!--/.Indicators-->
     <!--Slides-->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner caro-inner-margin-left" role="listbox">
         <div class="carousel-item active">
             <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                <img class="d-block w-50 caro-img-height" src="/images/fam1.jpg" alt="First slide">
                 <div class="mask rgba-black-light"></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
-            </div>
         </div>
+
         <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                <img class="d-block w-50 caro-img-height" src="/images/fam2.jpg" alt="Second slide">
                 <div class="mask rgba-black-strong"></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
-            </div>
         </div>
         <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                <img class="d-block w-50 caro-img-height" src="/images/fam3.jpg" alt="Third slide">
                 <div class="mask rgba-black-slight"></div>
             </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+        </div>
+        <div class="carousel-item">
+            <div class="view">
+                <img class="d-block w-50 caro-img-height" src="/images/fam4.jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
             </div>
         </div>
     </div>
@@ -384,15 +380,17 @@
 			<div class="gallery-grids" >
 				<section>
 					<ul id="da-thumbs" class="da-thumbs">
-						<li data-aos="zoom-in">
+						<li data-aos="zoom-ind">
 							<a href="/images/beyond-the-hurt.png" class="b-link-stripe b-animate-go  thickbox">
 								<img src="/images/beyond-the-hurt.png" alt="" class="img-fluid" />
 								<div>
 									<h5 class="card-header">Beyond the Hurt</h5>
-									<p class="btn btn-dark">Buy Now</p>
+									<span><a class="btn btn-dark" href="/beyond-the-hurt">Order for it!</a></span>
 								</div>
 							</a>
 						</li>
+
+
 						<li data-aos="zoom-in">
 							<a href="/images/chip-img-2.jpg" class="b-link-stripe b-animate-go  thickbox">
 								<img src="/images/chip-img-2.jpg" alt="" class="img-fluid chip-custom-img-size" />
@@ -403,8 +401,8 @@
 							</a>
 						</li>
 						<li data-aos="zoom-in">
-							<a href="/images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
-								<img src="/images/g3.jpg" alt="" class="img-fluid" />
+							<a href="/images/bedsheet2.jpg" class="b-link-stripe b-animate-go  thickbox">
+								<img src="/images/bedsheet1.jpg" alt="" class="img-fluid" />
 								<div>
 									<h5>Bed-Spread (Interior Decor)</h5>
 									<p>Order now</p>
@@ -452,82 +450,7 @@
 
 	<% include partials/footer %>
 
-
-	<!-- Js files -->
-	<!-- JavaScript -->
-	<script src="/javascripts/jquery-2.2.3.min.js"></script>
-	<!-- Default-JavaScript-File -->
-
-	<!-- scripts required  for particle effect -->
-	<script src='/javascripts/particles.min.js'></script>
-	<script src="/javascripts/particles.js"></script>
-	<!-- //scripts required for particle effect -->
-
-	<!-- chart -->
-	<script src='/javascripts/amcharts.js'></script>
-	<script src='/javascripts/chart.js'></script>
-	<!-- //chart -->
-	<!-- //gallery-js -->
-
-	<!-- stats -->
-	<script src="/javascripts/jquery.waypoints.min.js"></script>
-	<script src="/javascripts/jquery.countup.js"></script>
-	<script>
-		$('.counter').countUp();
-	</script>
-	<!-- //stats -->
-
-	<!-- flexSlider (for testimonials) -->
-	<link rel="stylesheet" href="/stylesheets/flexslider.css" type="text/css" media="screen" property="" />
-	<script defer src="/javascripts/jquery.flexslider.js"></script>
-	<script>
-		$(window).load(function () {
-			$('.flexslider').flexslider({
-				animation: "slide",
-				start: function (slider) {
-					$('body').removeClass('loading');
-				}
-			});
-		});
-	</script>
-	<!-- //flexSlider (for testimonials) -->
-
-	<!-- animation js -->
-	<script src='/javascripts/aos.js'></script>
-	<script>
-		AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
-
-    </script>
-	<!-- //animation js -->
-
-	<!-- smooth scrolling -->
-	<script src="/javascripts/SmoothScroll.min.js"></script>
-	<!-- move-top -->
-	<script src="/javascripts/move-top.js"></script>
-	<!-- easing -->
-	<script src="/javascripts/easing.js"></script>
-	<!--  necessary snippets for few javascript files -->
-	<script src="/javascripts/online-resume.js"></script>
-
-	<script src="/javascripts/bootstrap.js"></script>
-	<!-- Necessary-JavaScript-File-For-Bootstrap -->
-
-	<!-- gallery -->
-	<script src="/javascripts/jquery.chocolat.js"></script>
-	<link rel="stylesheet" href="/stylesheets/chocolat.css" type="text/css" media="screen">
-	<!-- light-box -->
-	<script>
-		$(function () {
-			$('.gallery a').Chocolat();
-		});
-	</script>
-	<!-- //light-box -->
-	<!-- //gallery -->
-	<!-- //Js files -->
-
+	<% include partials/scripts %>
 </body>
 
 </html>

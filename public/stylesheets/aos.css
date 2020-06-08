@@ -307,7 +307,7 @@ a {
   .section-group .btn {
     margin-right: 20px; }
 
-.btn {
+/*.btn {
   padding: 10px 20px;
   border: 1px solid #FF4081;
   display: inline-block;
@@ -339,3 +339,4 @@ a {
           -ms-transform: scaleX(200);
               transform: scaleX(200);
       opacity: 1; }
+*/

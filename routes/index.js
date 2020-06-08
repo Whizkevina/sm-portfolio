@@ -11,4 +11,9 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Favour Duruji-Moses - Contact' });
 });
 
+router.get('/beyond-the-hurt', function (req, res, next) {
+	/* body... */
+	res.render('beyond-the-hurt', { title: 'Beyond the Hurt'})
+})
+
 module.exports = router;
