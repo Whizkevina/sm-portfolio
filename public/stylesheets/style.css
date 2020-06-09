@@ -1207,7 +1207,7 @@ h2.font-w3ls-style {
 
     a.animated-button {
         width: 128px;
-        font-size: 15px;
+        font-size: 0.6rem;
         padding: 11px 0;
         letter-spacing: 1px;
     }
