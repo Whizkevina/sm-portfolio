@@ -1562,8 +1562,8 @@ h2.font-w3ls-style {
 }
 
 .chip-custom-img-size {
-    height: 330px;
-    width: 250px !important;
+    height: 313px;
+    width: 90% !important;
     margin-left: 25px;
     margin-right: 25px;
 }

@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Favour Duruji-Moses - Contact' });
+  res.render('contact', { title: 'Contact Form' });
 });
 
 router.get('/beyond-the-hurt', function (req, res, next) {
